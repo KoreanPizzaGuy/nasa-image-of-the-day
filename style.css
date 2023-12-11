@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    background-image: url("https://thumbs.gfycat.com/SeveralAlertIguana-size_restricted.gif");
     background-size: cover;
   }
   
@@ -69,4 +68,37 @@
     display: block;
     margin: 0 auto;
     max-height: 30rem;
+  }
+
+
+ img .logo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 10rem;
+    height: 10rem;
+  }  
+
+  @media only screen and (max-width: 600px) {
+    h1{
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+    h3{
+      font-size: 1rem;
+    }
+    input{
+      width: 10rem;
+      height: 2rem;
+    }
+    button{
+      width: 10rem;
+      height: 2rem;
+    }
+    img{
+      max-height: 20rem;
+    }
   }
